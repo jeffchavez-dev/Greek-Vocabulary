@@ -80,10 +80,11 @@ const vocabularyTwo = [
 
 
 const greekVocab = document.querySelector(".greek-vocabulary")
+const vocabEL = document.querySelector(".container")
 const englishVocab = document.querySelector(".english-vocabulary")
 const correct = document.querySelector(".correct-answer")
 const showAnswer = document.querySelector(".show-answer")
-
+const retake = document.querySelector(".retake");
 const vocabKeys = Object.keys(vocabulary[0])
 
 
@@ -104,13 +105,21 @@ const loadVocabulary = () => {
     englishVocab.innerHTML = vocabulary[0][vocabKeys[currentVocab]]
 }
 
-
-console.log(vocabKeys.length)
 correct.addEventListener("click", ()  => {
     currentVocab++;
-    loadVocabulary();
-    englishVocab.classList.remove("show");
-    showAnswer.classList.remove('hide');
+   
+
+    if(currentVocab < vocabKeys.length) {
+
+        loadVocabulary();
+        englishVocab.classList.remove("show");
+        showAnswer.classList.remove('hide');
+
+       
+    } else {
+        retake.classList.add('show');
+        vocabEL.classList.add('hide')
+    }
 
 })
 
@@ -119,5 +128,12 @@ loadVocabulary()
 showAnswer.addEventListener("click", ()  => {
     englishVocab.classList.add("show");
     showAnswer.classList.add('hide');
-   
 })
+
+
+
+retake.addEventListener("click", () => {
+    location.reload();
+})
+
+
