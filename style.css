@@ -28,6 +28,9 @@ body {
 .greek-vocabulary {
     font-size: 5rem;
 }
+.english-vocabulary {
+    display: none;
+}
 .show-answer {
     background-color: white;
     border: none;

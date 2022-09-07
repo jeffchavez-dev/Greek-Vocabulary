@@ -5,12 +5,7 @@ const vocabulary = [
         "ζωή ἡ": "life (zoo, zoology)",
         "φωνή, ἡ ": "voice sound (phonetics, phonograph, phone)"
 
-    } ,
-    { 
-       
-        "γῆ ἡ": "earth, land, ground (geology)",
-        "ζωή ἡ": "life (zoo, zoology)"
-    }              
+    }            
 ]
 
 
@@ -32,7 +27,6 @@ const loadVocabulary = () => {
 correct.addEventListener("click", ()  => {
     currentVocab++;
     loadVocabulary()
-    console.log(currentVocab)
 })
 
 loadVocabulary()
