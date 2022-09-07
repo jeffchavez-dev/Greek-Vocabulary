@@ -1,5 +1,6 @@
 const vocabulary = [
-    { 
+    {       
+            "ἀποκρίνομαι ": "I answer, reply",
             "ἀγάπη, ἡ": "love",
             "γῆ ἡ": "earth, land, ground (geology)",
             "ζωή ἡ": "life (zoo, zoology)",
@@ -39,7 +40,6 @@ const vocabulary = [
             "λαμβάνω ": "I take, receive",
             "λύω ": "I loose, destroy",
             "πιστεύω ": "I believe, have faith/trust in",
-            "ἀποκρίνομαι ": "I answer, reply",
             "γίνομαι ": "I become, come, exist, am born",
             "ἔρχομαι ": "I come, go16",
             "πορεύομαι ": "I go, travel",

@@ -5,13 +5,17 @@
 }
 
 body {
-    height: 100vh;
+    height: 80vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1em;
+}
 .container {
     background-color: wheat;
     width: 50%;
@@ -23,8 +27,12 @@ body {
 
 
 .vocabulary {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    padding: 1em;
+    padding: .5em;
     font-size: 4rem;
 }
 
@@ -36,7 +44,16 @@ body {
 .show {
     display: block;
 }
+
+.btn {
+    cursor: pointer;
+    padding: 1em;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+}
 .show-answer {
+    display: block;
     background-color: white;
     border: none;
     margin-top: 2em;
@@ -53,13 +70,7 @@ body {
     padding: .5em;
 }
 
-.btn {
-    cursor: pointer;
-    padding: 1em;
-    font-size: 1.2rem;
-    border: none;
-    border-radius: 10px;
-}
+
 
 .wrong-answer {
     background-color: red;
@@ -78,12 +89,18 @@ body {
     display: block;
 }
 
+footer {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1em;
+}
+
 @media only screen and (max-width: 600px) {
     .container {
         width: 80%;
     }
     .vocabulary {
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .english-vocabulary {
         font-size: 1.5rem;
