@@ -31,9 +31,14 @@ body {
 .english-vocabulary {
     display: none;
 }
+
+.show {
+    display: block;
+}
 .show-answer {
     background-color: white;
     border: none;
+    margin-top: 2em;
 }
 .buttons {
     display: flex;

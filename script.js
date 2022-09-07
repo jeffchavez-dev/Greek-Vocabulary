@@ -18,6 +18,7 @@ let currentVocab = 0;
 const greekVocab = document.querySelector(".greek-vocabulary")
 const englishVocab = document.querySelector(".english-vocabulary")
 const correct = document.querySelector(".correct-answer")
+const showAnswer = document.querySelector(".show-answer")
 
 const loadVocabulary = () => {
     greekVocab.innerHTML = vocabKeys[currentVocab];
@@ -30,3 +31,8 @@ correct.addEventListener("click", ()  => {
 })
 
 loadVocabulary()
+
+showAnswer.addEventListener("click", ()  => {
+    englishVocab.classList.add("show");
+   
+})
