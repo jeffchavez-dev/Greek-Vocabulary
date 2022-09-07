@@ -1,6 +1,6 @@
 const vocabulary = [
     { 
-            "ἀγάπη": "love",
+            "ἀγάπη, ἡ": "love",
             "γῆ ἡ": "earth, land, ground (geology)",
             "ζωή ἡ": "life (zoo, zoology)",
             "φωνή, ἡ ": "voice, sound (phonetics, phonograph, phone)",
