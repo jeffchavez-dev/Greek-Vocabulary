@@ -10,7 +10,6 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 3em;
 }
 
 .container {
@@ -26,10 +25,9 @@ body {
 .vocabulary {
     text-align: center;
     padding: 1em;
-}
-.greek-vocabulary {
     font-size: 4rem;
 }
+
 .english-vocabulary {
     display: none;
     margin: .5em;
@@ -79,6 +77,6 @@ body {
         width: 80%;
     }
     .vocabulary {
-        font-size: 1rem;
+        font-size: 3rem;
     }
 }
