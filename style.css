@@ -23,13 +23,14 @@ body {
 
 .vocabulary {
     text-align: center;
-    padding: 2em;
+    padding: 1em;
 }
 .greek-vocabulary {
     font-size: 5rem;
 }
 .english-vocabulary {
     display: none;
+    margin: .5em;
 }
 
 .show {
@@ -39,6 +40,10 @@ body {
     background-color: white;
     border: none;
     margin-top: 2em;
+}
+
+.hide {
+    display: none;
 }
 .buttons {
     display: flex;
