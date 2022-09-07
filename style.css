@@ -23,7 +23,10 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-    .container {width: 90% }
+    .container {
+        width: 80%;
+        font-size: 2em;
+    }
 }
 
 .vocabulary {
