@@ -27,7 +27,8 @@ const loadVocabulary = () => {
 
 correct.addEventListener("click", ()  => {
     currentVocab++;
-    loadVocabulary()
+    loadVocabulary();
+    englishVocab.classList.remove("show");
 })
 
 loadVocabulary()
