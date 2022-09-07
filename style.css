@@ -1,0 +1,54 @@
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3em;
+}
+
+.container {
+    background-color: wheat;
+    width: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.vocabulary {
+    text-align: center;
+    padding: 2em;
+}
+.show-answer {
+    background-color: white;
+    border: none;
+}
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blue;
+    padding: .5em 1em 1em 1em;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 1em;
+    font-size: 1.5rem;
+    border: none;
+}
+
+.wrong-answer {
+    background-color: red;
+    color: white;
+}
+.correct-answer {
+    background-color: green;
+    color: white;
+}
